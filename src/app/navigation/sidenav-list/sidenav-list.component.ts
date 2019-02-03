@@ -1,5 +1,4 @@
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
-import { emit } from 'cluster';
 
 @Component({
   selector: 'app-sidenav-list',
@@ -9,9 +8,11 @@ import { emit } from 'cluster';
 export class SidenavListComponent implements OnInit {
 
   @Output() closeSideNavigation = new EventEmitter();
+
   constructor() { }
 
-  ngOnInit() { }
+  ngOnInit() {
+  }
 
   onToggleClose() {
     this.closeSideNavigation.emit();
