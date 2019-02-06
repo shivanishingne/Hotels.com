@@ -91,10 +91,10 @@ $thea-typography: mat-typography-config(
   $display-3:     mat-typography-level(56px, 56px, 400),
   $display-2:     mat-typography-level(45px, 48px, 400),
   $display-1:     mat-typography-level(34px, 40px, 400),
-  $headline:      mat-typography-level(97.54px, 32px, 400),
-  $title:         mat-typography-level(61px, normal, 500),
-  $subheading-2:  mat-typography-level(48.77px, normal, 400),
-  $subheading-1:  mat-typography-level(34.54px, normal, 400),
+  $headline:      mat-typography-level(24px, 32px, 400),
+  $title:         mat-typography-level(20px, normal, 500),
+  $subheading-2:  mat-typography-level(16px, normal, 400),
+  $subheading-1:  mat-typography-level(15px, normal, 400),
   $body-2:        mat-typography-level(14.22px, normal, 500),
   $body-1:        mat-typography-level(16.26px, normal, 400),
   $caption:       mat-typography-level(12.19px, normal, 400),
@@ -115,7 +115,6 @@ $thea-typography: mat-typography-config(
 @include mat-core($thea-typography);
 
 
-
 // All our styles will go here
 .mat-list-option:hover, 
 .mat-list-option.mat-list-item-focus, 
@@ -123,4 +122,5 @@ $thea-typography: mat-typography-config(
 .mat-nav-list .mat-list-item.mat-list-item-focus {
   background-color: mat-color($theahotel-primary, 300);
   color: mat-color($theahotel-primary, 900);
+  font-size: 1em;
 }

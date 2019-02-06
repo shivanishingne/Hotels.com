@@ -1,7 +1,4 @@
-import {
-    NgModule
- } from '@angular/core';
-
+import { NgModule } from '@angular/core';
 import {
     MatBadgeModule,
     MatButtonModule,
@@ -35,9 +32,9 @@ import {
         MatSidenavModule,
         MatListModule,
         MatTabsModule,
-         MatGridListModule,
+        MatGridListModule,
         MatCardModule
     ]
 })
 
-export class MaterialModule {}
+export class MaterialModule { }

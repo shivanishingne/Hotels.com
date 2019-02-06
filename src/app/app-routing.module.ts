@@ -14,7 +14,8 @@ import { HomeComponent } from './home/home.component';
 const routes: Routes = [
   { path: 'accomodation', component: AccomodationComponent},
   { path: 'celebrations', component: CelebrationsComponent },
-  { path: 'food-and-beverage', component: FoodAndBeverageComponent},
+  { path: 'food-and-beverage', component: FoodAndBeverageComponent },
+  { path: 'foodandbeverage', redirectTo: 'food-and-beverage', pathMatch: 'full' },
   { path: 'lifestyle', component: LifestyleComponent },
   { path: 'offers', component: OffersComponent },
   { path: 'weddings', component: WeddingsComponent},
